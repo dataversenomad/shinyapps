@@ -1,0 +1,27 @@
+Feature,Description
+Probability,"The probability (in percentage) that a particular borrower will pay the loan (i.e. 0% means default or not paid, 70% means likely to pay, 90% means very likely to pay and 100% means paid "
+loan_status,The current loan status of the borrower (i.e. Current means that the loan is active (not paid or default)
+addr_state,The state provided by the borrower in the loan application
+all_util,Balance to credit limit on all trades
+annual_inc,The self-reported annual income provided by the borrower during registration.
+application_type,Indicates whether the loan is an individual application or a joint application with two co-borrowers
+desc,Loan description provided by the borrower
+dti,"A ratio calculated using the borrowers total monthly debt payments on the total debt obligations, excluding mortgage and the requested LC loan, divided by the borrower’s self-reported monthly income."
+dti_joint,"A ratio calculated using the co-borrowers' total monthly payments on the total debt obligations, excluding mortgages and the requested LC loan, divided by the co-borrowers' combined self-reported monthly income"
+emp_title,The job title supplied by the Borrower when applying for the loan.*
+grade,LC assigned loan grade
+homeOwnership,"The home ownership status provided by the borrower during registration. Our values are: RENT, OWN, MORTGAGE, OTHER."
+inq_last_12m,Number of credit inquiries in past 12 months
+pub_rec_bankruptcies,Number of public record bankruptcies
+purpose,A category provided by the borrower for the loan request. 
+subGrade,LC assigned loan subgrade
+term,The number of payments on the loan. Values are in months and can be either 36 or 60.
+title,The loan title provided by the borrower
+tot_cur_bal,Total current balance of all accounts
+tot_hi_cred_lim,Total high credit/credit limit
+total_bal_il,Total current balance of all installment accounts
+verified_status_joint,"Indicates if the co-borrowers' joint income was verified by LC, not verified, or if the income source was verified"
+revol_bal_joint ," Sum of revolving credit balance of the co-borrowers, net of duplicate balances"
+disbursement_method,"The method by which the borrower receives their loan. Possible values are: CASH, DIRECT_PAY"
+issue_d,The date in which the loan was created
+emp_length,Employment length in years. Possible values are between 0 and 10 where 0 means less than one year and 10 means ten or more years.
